@@ -1,0 +1,41 @@
+
+.slider{
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1080px;
+    img{
+        width: 100%;
+
+    }
+}
+
+.slider__line{
+    display: flex;
+    position: relative;
+    width: 1080px;
+    left: 0;
+
+    transition: all ease 1s;
+}
+
+.slide__buttons{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    button{
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+        outline: none;
+    }
+    &-prev{
+        left: 0
+    }
+
+    &-next{
+        right: 0;
+    }
+}

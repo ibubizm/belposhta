@@ -1,0 +1,84 @@
+.navlink{
+    text-decoration: none;
+}
+
+.page{
+    min-height: 1129px;
+    background: url('../../../static/bgany.png') center no-repeat;
+	-webkit-background-size: cover;
+}
+
+.header__list{
+    margin-top: 15px;
+}
+.item{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 35px;
+    margin-right: 35px;
+
+    background: #FFFFFF;
+    box-shadow: 2px 11px 16px rgba(100, 105, 108, 0.24);
+    border-radius: 45px;
+
+    .title{
+        font-family: Roboto;
+        padding: 60px 20px 45px 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #2B2E2D;
+    }
+
+    &:hover{
+        transform: scale(1.02);
+        cursor: pointer;
+    }
+
+    &__icon{
+        position: absolute;
+        bottom: 35px;
+        left: 25px;
+    }
+}
+
+.header__list{
+    display: flex;
+    justify-content: center;
+    .list__title{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #2C2C33;
+
+    }
+
+    .back{
+        position: absolute;
+        right: 0;
+    }
+}
+
+.back{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.04);
+    }
+}

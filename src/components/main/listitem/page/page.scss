@@ -1,0 +1,28 @@
+
+// .page{
+//     min-height: 1129px;
+//     background: url('../../../static/bgany.png') center no-repeat;
+// 	-webkit-background-size: cover;
+// }
+
+.text__page{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+.header__page{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding: 0 30px;
+}
+
+.content__page{
+    padding: 0 98px;
+}

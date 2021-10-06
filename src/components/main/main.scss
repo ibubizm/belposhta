@@ -1,0 +1,14 @@
+
+
+.main{
+    background: url('../../static/bg.png') center no-repeat;
+	-webkit-background-size: cover;
+    min-height: 1129px;
+}
+
+.listitem{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 55px;
+    justify-content: center;
+}
