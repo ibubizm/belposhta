@@ -1,4 +1,4 @@
-import img1 from './sliderimg/img.png'
+import img1 from './sliderimg/img1.png'
 import img2 from './sliderimg/img2.png'
 import backImg from './sliderimg/back.png'
 import nextImg from './sliderimg/next.png'

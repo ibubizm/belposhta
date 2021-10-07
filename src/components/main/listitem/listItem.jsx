@@ -1,12 +1,14 @@
 import './listItem.scss'
 import { NavLink } from 'react-router-dom'
-import { DeepList } from './deeplist'
 import { useDispatch } from 'react-redux'
 import { getChildItems } from '../../../redux/reducer'
 
 
-export const ListItem = ({ item }) => {
+
+
+export const ListItem = ({ item, index }) => {
     const dispatch = useDispatch()
+
 
     const dis = () => {
         dispatch(getChildItems(item))

@@ -38,6 +38,10 @@
 .lang__block{
     display: flex;
     cursor: pointer;
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
 }
 
 .eng{

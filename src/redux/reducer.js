@@ -1,5 +1,5 @@
 const initialState = {
-    // data: [],
+    data: [],
     language: 'rus',
     currentDir: [],
     currentPage: {}
@@ -34,7 +34,7 @@ export function ItemReducer(state = initialState, action) {
     }
 }
 
-export const getdata = (data) => ({
+export const getData = (data) => ({
     type: 'DATA',
     payload: data
 })

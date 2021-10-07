@@ -5,6 +5,7 @@ import { getWeather } from './weather'
 import { useDispatch } from 'react-redux'
 import { setLanguage } from '../../redux/reducer'
 import { useSelector } from 'react-redux'
+import { NavLink } from 'react-router-dom'
 
 
 export const Navbar = () => {
@@ -42,8 +43,12 @@ export const Navbar = () => {
                     {date}
                 </div>
                 <div className="lang__block">
-                    <div className={language === 'eng' ? 'eng active' : 'eng'} onClick={() => dispatch(setLanguage('eng'))}>eng</div>
-                    <div className={language === 'rus' ? 'rus active' : 'rus'} onClick={() => dispatch(setLanguage('rus'))}>рус</div>
+                    <NavLink to='/'>
+                        <div className={language === 'eng' ? 'eng active' : 'eng'} onClick={() => dispatch(setLanguage('eng'))}>eng</div>
+                    </NavLink>
+                    <NavLink to='/'>
+                        <div className={language === 'rus' ? 'rus active' : 'rus'} onClick={() => dispatch(setLanguage('rus'))}>рус</div>
+                    </NavLink>
                 </div>
             </div>
         </div>
